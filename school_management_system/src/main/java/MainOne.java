@@ -6,8 +6,6 @@ public class MainOne {
         Principal principal = new Principal("001", "Nosa igbinigie", "Male");
         Students studentOne = new Students("Joseph Samuel", "B112", "Male", 70, true, false);
         Teachers teacherOne = new Teachers("T110", "Jeremy Obaro", "Male", "CPT111");
-        Address address = new Address("Nigeria", "Kogi state", "Ajaokuta", "A112");
-        MySchool mySchool = new MySchool("Royal Crown Academy", new Address("Nigeria", "Kogi state", "Ajaokuta", "A112"));
 
         applicantOne.takeAssessment();
         applicantOne.applicationStatus();
